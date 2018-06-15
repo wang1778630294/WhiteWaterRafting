@@ -25,7 +25,7 @@
     <div class="module module3">
         <!--全国总ap次数-->
         <div id="user_num">...</div>
-        当日总mac数
+        当日总用户数
     </div>
     <div class="module module4">
         <!--每日定位用户图-->
@@ -47,14 +47,28 @@
     </div>
     <!--全国指纹分部-->
     <div class="module module5">
+        <div class="spinner_content">
+            <div class="spinner"></div>
+        </div>
         <div id="density"></div>
     </div>
     <div class="module module6">
         <ul class="mo_list">
-            <li><p class="mo_title">全国定位总次数</p> <p class="mo_number" id="loc_sum"></p></li>
-            <li><p class="mo_title">全国定位总用户数</p> <p class="mo_number" id="user_sum"></p></li>
-            <li><p class="mo_title">全国AP总数</p> <p class="mo_number" id="ap_sum"></p></li>
-            <li><p class="mo_title">全国指纹总数</p> <p class="mo_number" id="dir_sum"></p></li>
+            <li>
+                <p class="mo_title">定位总次数</p>
+                <p class="mo_number" id="loc_sum"></p>
+            </li>
+            <li>
+                <p class="mo_title">定位总用户数</p>
+                <p class="mo_number" id="user_sum"></p>
+            </li>
+            <li>
+                <p class="mo_title">AP总数</p>
+                <p class="mo_number" id="ap_sum"></p>
+            </li>
+            <li>
+                <p class="mo_title">指纹总数</p>
+                <p class="mo_number" id="dir_sum"></p></li>
         </ul>
     </div>
     <div class="module module7">
@@ -89,10 +103,13 @@
 <script src="lib/jquery-3.3.1.min.js"></script>
 <script src="lib/echarts.min.js"></script>
 <script src="lib/echarts-gl.min.js"></script>
+<script src="lib/bmap.js"></script>
 <script src="lib/countUp.min.js"></script>
 <script src="lib/getpath.js"></script>
 <script src="js/gps.js"></script>
 <script src="js/getPath.js"></script>
 <script src="js/resize.js"></script>
+<script src="js/judgegps.js"></script>
 <script src="js/main.js"></script>
 <script src="js/login.js"></script>
+

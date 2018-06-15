@@ -87,8 +87,7 @@ function onResize(){
     
     $(".loc_user_container").css({
     	"height": 400*_y,
-		"width": 500*_x,
-		"paddingLeft": 30*_x
+		"width": 500*_x
     })
     
     $(".loc_map").css({
@@ -108,7 +107,7 @@ function onResize(){
     
     $("#loc_user").css({
     	"width": 480*_x,
-    	"height": 450*_y
+    	"height": 400*_y
     })
     
     $(".module5").css({
@@ -130,6 +129,15 @@ function onResize(){
 
 	$(".mo_list li").css({
 		"width": 195*_x,
+		"height": 41*_y
+
+	})
+
+	$(".mo_list li .mo_title").css({
+        "height": 41*_y
+	})
+    //
+	$(".mo_number").css({
 		"height": 41*_y
 	})
 
@@ -156,7 +164,7 @@ function onResize(){
     
     $("#thedayloc_echarts").css({
     	"width": 530*_x,
-    	"height": 220*_y,
+    	"height": 200*_y,
 		"marginTop": -32*_y
     })
     

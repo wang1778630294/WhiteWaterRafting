@@ -2,36 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1cab885f-49f5-4e3f-b390-7d4869be1c2e" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/css/resize.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/china.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/cumulative_today.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/data-1491917776060-Sku0i8qpx.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/for_day_rice.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/forday.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/test_buildings_showmap.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/300.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/O0m6rrANm3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/border.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/border1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/ejd9qAok9P.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/logo1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/sky1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/timg.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/getPath.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/gps.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/login.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/main.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/resize.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/countUp.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/echarts-gl.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/echarts.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/getpath.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/jquery-3.3.1.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/reset.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/login.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/js/judgegps.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/bmap.js" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/css/resize.css" afterPath="$PROJECT_DIR$/css/resize.css" />
+      <change beforePath="$PROJECT_DIR$/js/gps.js" afterPath="$PROJECT_DIR$/js/gps.js" />
+      <change beforePath="$PROJECT_DIR$/js/login.js" afterPath="$PROJECT_DIR$/js/login.js" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
+      <change beforePath="$PROJECT_DIR$/js/resize.js" afterPath="$PROJECT_DIR$/js/resize.js" />
+      <change beforePath="$PROJECT_DIR$/main.html" afterPath="$PROJECT_DIR$/main.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -45,22 +24,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="38" column="40" lean-forward="false" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="40" />
+            <state relative-caret-position="1329">
+              <caret line="57" column="16" lean-forward="false" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
               <folding>
-                <element signature="e#2136#2142#0" expanded="true" />
-                <element signature="e#2142#2148#0" expanded="true" />
-                <element signature="e#2148#2154#0" expanded="true" />
-                <element signature="e#2154#2160#0" expanded="true" />
-                <element signature="e#2160#2166#0" expanded="true" />
-                <element signature="e#2558#2564#0" expanded="true" />
-                <element signature="e#2564#2570#0" expanded="true" />
-                <element signature="e#2570#2576#0" expanded="true" />
-                <element signature="e#2576#2582#0" expanded="true" />
-                <element signature="e#2582#2588#0" expanded="true" />
+                <element signature="e#2391#2397#0" expanded="true" />
+                <element signature="e#2397#2403#0" expanded="true" />
+                <element signature="e#2403#2409#0" expanded="true" />
+                <element signature="e#2409#2415#0" expanded="true" />
+                <element signature="e#2415#2421#0" expanded="true" />
+                <element signature="e#2813#2819#0" expanded="true" />
+                <element signature="e#2819#2825#0" expanded="true" />
+                <element signature="e#2825#2831#0" expanded="true" />
+                <element signature="e#2831#2837#0" expanded="true" />
+                <element signature="e#2837#2843#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -69,8 +48,8 @@
       <file leaf-file-name="resize.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/resize.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="27" column="18" lean-forward="false" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+            <state relative-caret-position="375">
+              <caret line="140" column="23" lean-forward="false" selection-start-line="140" selection-start-column="23" selection-end-line="140" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -79,8 +58,8 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="530">
-              <caret line="21" column="7" lean-forward="false" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+            <state relative-caret-position="1194">
+              <caret line="839" column="19" lean-forward="false" selection-start-line="839" selection-start-column="19" selection-end-line="839" selection-end-column="19" />
               <folding>
                 <element signature="n#!!block;n#drawUserAndLoc#0" expanded="false" />
                 <element signature="n#!!block;n#drawLocTheDay#0" expanded="false" />
@@ -89,6 +68,8 @@
                 <element signature="n#!!block;n#thedaylocEcharts#0" expanded="false" />
                 <element signature="n#!!block;n#counter#0" expanded="false" />
                 <element signature="n#!!block;n#userNum#0" expanded="false" />
+                <element signature="n#!!block;n#density#0" expanded="false" />
+                <element signature="n#!!block;n#locMap#0" expanded="false" />
                 <element signature="n#!!block;n#userSource#0" expanded="false" />
                 <element signature="n#!!block;n#sumUp#0" expanded="false" />
               </folding>
@@ -96,21 +77,61 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/login.js">
+      <file leaf-file-name="getPath.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/getPath.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="22" column="32" lean-forward="false" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="resize.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="login.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/login.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="61" column="35" lean-forward="false" selection-start-line="61" selection-start-column="35" selection-end-line="61" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="resize.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/resize.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="259" column="18" lean-forward="false" selection-start-line="259" selection-start-column="18" selection-end-line="259" selection-end-column="18" />
+            <state relative-caret-position="627">
+              <caret line="188" column="26" lean-forward="false" selection-start-line="188" selection-start-column="26" selection-end-line="188" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="judgegps.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/judgegps.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="536">
+              <caret line="305" column="20" lean-forward="true" selection-start-line="305" selection-start-column="20" selection-end-line="305" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gps.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/gps.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="36" column="20" lean-forward="false" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -129,21 +150,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>来源</find>
-      <find>每日定位次数</find>
-      <find>user_source</find>
-      <find>module7</find>
-      <find>万次</find>
-      <find>overflow</find>
-      <find>location_echarts</find>
-      <find>thedayloc_num</find>
-      <find>loc_num</find>
-      <find>theday_echarts</find>
-      <find>thedayrice_echarts</find>
-      <find>thedayloc_title</find>
-      <find>res.user</find>
-      <find>userNum</find>
-      <find>sumUp</find>
       <find>axisLabel</find>
       <find>xAxis</find>
       <find>yAxis</find>
@@ -152,13 +158,28 @@
       <find>myTargetElement</find>
       <find>main_title</find>
       <find>module6</find>
-      <find>module5</find>
       <find>loc_user_container</find>
       <find>cut_map</find>
       <find>city_btn</find>
+      <find>gcj02tobd09</find>
+      <find>slider</find>
+      <find>a</find>
+      <find>pts</find>
+      <find>loc_user</find>
       <find>density</find>
       <find>model_slider</find>
-      <find>slider</find>
+      <find>当日累计</find>
+      <find>spinner</find>
+      <find>每日定位次数</find>
+      <find>定位次数</find>
+      <find>thedayloc_echarts</find>
+      <find>sumUp</find>
+      <find>module5</find>
+      <find>mo_list</find>
+      <find>mo_number</find>
+      <find>全国</find>
+      <find>指纹</find>
+      <find>mo_title</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -181,10 +202,12 @@
         <option value="$PROJECT_DIR$/lib/countUp.min.js" />
         <option value="$PROJECT_DIR$/css/mapbox-gl.css" />
         <option value="$PROJECT_DIR$/css/main.css" />
-        <option value="$PROJECT_DIR$/js/login.js" />
-        <option value="$PROJECT_DIR$/js/resize.js" />
-        <option value="$PROJECT_DIR$/main.html" />
+        <option value="$PROJECT_DIR$/js/gps.js" />
+        <option value="$PROJECT_DIR$/js/judgegps.js" />
         <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/js/login.js" />
+        <option value="$PROJECT_DIR$/main.html" />
+        <option value="$PROJECT_DIR$/js/resize.js" />
         <option value="$PROJECT_DIR$/css/resize.css" />
       </list>
     </option>
@@ -195,9 +218,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="179" />
-    <option name="y" value="41" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="112" />
+    <option name="y" value="140" />
     <option name="width" value="1623" />
     <option name="height" value="942" />
   </component>
@@ -232,12 +255,7 @@
             <path>
               <item name="WhiteWaterRafting" type="b2602c69:ProjectViewProjectNode" />
               <item name="WhiteWaterRafting" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WhiteWaterRafting" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WhiteWaterRafting" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WhiteWaterRafting" type="b2602c69:ProjectViewProjectNode" />
@@ -265,11 +283,11 @@
       <recent name="C:\Users\lu\Desktop\工作目录\WhiteWaterRafting\lib" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lu\Desktop\工作目录\WhiteWaterRafting\lib" />
       <recent name="C:\Users\lu\Desktop\工作目录\WhiteWaterRafting\images" />
       <recent name="C:\Users\lu\Desktop\工作目录\WhiteWaterRafting\css" />
       <recent name="C:\Users\lu\Desktop\工作目录\WhiteWaterRafting\js" />
       <recent name="C:\Users\lu\Desktop\工作目录\WhiteWaterRafting\data" />
-      <recent name="C:\Users\lu\Desktop\工作目录\WhiteWaterRafting\lib" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -299,18 +317,18 @@
       <updated>1528092667696</updated>
       <workItem from="1528092669297" duration="28491000" />
       <workItem from="1528246904545" duration="23541000" />
-      <workItem from="1528437918228" duration="108979000" />
+      <workItem from="1528437918228" duration="124146000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="161011000" />
+    <option name="totallyTimeSpent" value="176178000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="112" y="140" width="1623" height="942" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14635417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17485999" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -337,7 +355,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -374,6 +392,8 @@
             <element signature="n#!!block;n#thedaylocEcharts#0" expanded="false" />
             <element signature="n#!!block;n#counter#0" expanded="false" />
             <element signature="n#!!block;n#userNum#0" expanded="false" />
+            <element signature="n#!!block;n#density#0" expanded="false" />
+            <element signature="n#!!block;n#locMap#0" expanded="false" />
             <element signature="n#!!block;n#userSource#0" expanded="false" />
             <element signature="n#!!block;n#sumUp#0" expanded="false" />
           </folding>
@@ -444,6 +464,8 @@
             <element signature="n#!!block;n#thedaylocEcharts#0" expanded="false" />
             <element signature="n#!!block;n#counter#0" expanded="false" />
             <element signature="n#!!block;n#userNum#0" expanded="false" />
+            <element signature="n#!!block;n#density#0" expanded="false" />
+            <element signature="n#!!block;n#locMap#0" expanded="false" />
             <element signature="n#!!block;n#userSource#0" expanded="false" />
             <element signature="n#!!block;n#sumUp#0" expanded="false" />
           </folding>
@@ -582,36 +604,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/getPath.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/countUp.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="619">
           <caret line="256" column="18" lean-forward="false" selection-start-line="256" selection-start-column="11" selection-end-line="256" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/gps.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="69" column="0" lean-forward="true" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -637,26 +633,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/login.js">
+    <entry file="file://$PROJECT_DIR$/lib/bmap.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="22" column="32" lean-forward="false" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/resize.js">
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="27" column="18" lean-forward="false" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+        <state relative-caret-position="305">
+          <caret line="15089" column="17" lean-forward="false" selection-start-line="15089" selection-start-column="17" selection-end-line="15089" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/gps.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="36" column="20" lean-forward="false" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/getPath.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="61" column="35" lean-forward="false" selection-start-line="61" selection-start-column="35" selection-end-line="61" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/judgegps.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="305" column="20" lean-forward="true" selection-start-line="305" selection-start-column="20" selection-end-line="305" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="21" column="7" lean-forward="false" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+        <state relative-caret-position="1194">
+          <caret line="839" column="19" lean-forward="false" selection-start-line="839" selection-start-column="19" selection-end-line="839" selection-end-column="19" />
           <folding>
             <element signature="n#!!block;n#drawUserAndLoc#0" expanded="false" />
             <element signature="n#!!block;n#drawLocTheDay#0" expanded="false" />
@@ -665,36 +701,46 @@
             <element signature="n#!!block;n#thedaylocEcharts#0" expanded="false" />
             <element signature="n#!!block;n#counter#0" expanded="false" />
             <element signature="n#!!block;n#userNum#0" expanded="false" />
+            <element signature="n#!!block;n#density#0" expanded="false" />
+            <element signature="n#!!block;n#locMap#0" expanded="false" />
             <element signature="n#!!block;n#userSource#0" expanded="false" />
             <element signature="n#!!block;n#sumUp#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.html">
+    <entry file="file://$PROJECT_DIR$/js/resize.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="38" column="40" lean-forward="false" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="40" />
-          <folding>
-            <element signature="e#2136#2142#0" expanded="true" />
-            <element signature="e#2142#2148#0" expanded="true" />
-            <element signature="e#2148#2154#0" expanded="true" />
-            <element signature="e#2154#2160#0" expanded="true" />
-            <element signature="e#2160#2166#0" expanded="true" />
-            <element signature="e#2558#2564#0" expanded="true" />
-            <element signature="e#2564#2570#0" expanded="true" />
-            <element signature="e#2570#2576#0" expanded="true" />
-            <element signature="e#2576#2582#0" expanded="true" />
-            <element signature="e#2582#2588#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="375">
+          <caret line="140" column="23" lean-forward="false" selection-start-line="140" selection-start-column="23" selection-end-line="140" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/resize.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="259" column="18" lean-forward="false" selection-start-line="259" selection-start-column="18" selection-end-line="259" selection-end-column="18" />
+        <state relative-caret-position="627">
+          <caret line="188" column="26" lean-forward="false" selection-start-line="188" selection-start-column="26" selection-end-line="188" selection-end-column="26" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1329">
+          <caret line="57" column="16" lean-forward="false" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
+          <folding>
+            <element signature="e#2391#2397#0" expanded="true" />
+            <element signature="e#2397#2403#0" expanded="true" />
+            <element signature="e#2403#2409#0" expanded="true" />
+            <element signature="e#2409#2415#0" expanded="true" />
+            <element signature="e#2415#2421#0" expanded="true" />
+            <element signature="e#2813#2819#0" expanded="true" />
+            <element signature="e#2819#2825#0" expanded="true" />
+            <element signature="e#2825#2831#0" expanded="true" />
+            <element signature="e#2831#2837#0" expanded="true" />
+            <element signature="e#2837#2843#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

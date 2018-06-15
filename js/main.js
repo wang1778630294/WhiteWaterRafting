@@ -14,7 +14,7 @@ $(function(){
     drawLocUserTheDay();
 
     sumUp();
-    setInterval(sumUp,5000)
+    // setInterval(sumUp,5000)
     userNum();
 
     setTimeout(function () {
@@ -53,7 +53,7 @@ function drawUserAndLoc(){
         for (var i = 0; i < res.data.length; i++) {
             xAxisData.push(res.data[i].name);
             data1.push(res.data[i].user_count);
-            data2.push((res.data[i].location_count)/10000);
+            data2.push((res.data[i].location_count));
         }
         option = {
             // backgroundColor:"#071428",
@@ -122,7 +122,7 @@ function drawUserAndLoc(){
             ],
             yAxis : [
                 {
-                    name : '定位次数(万次/日)',
+                    name : '定位次数(次/日)',
                     type : 'value',
                     axisLine: {
                         lineStyle: {
@@ -849,21 +849,34 @@ function density() {
         var weiboData1 = [];
         var weiboData2 = [];
         var weiboData3 = [];
-        for (var i = 0; i < res.data.length; i++) {
-            var _arr = [];
 
-            var bdgps = GPS.bd_encrypt(res.data[i].lat,res.data[i].lng);
-            _arr.push(bdgps.lon);
-            _arr.push(bdgps.lat);
-            if (res.data[i].value>5550) {
-                weiboData3.push(_arr)
-            }else if(res.data[i].value>1550){
-                weiboData2.push(_arr)
-            }else{
-                weiboData1.push(_arr)
+        var pts=CreateChinaMapLine();
+        var ply = new BMap.Polygon(pts);
+
+        for (var i = 0; i < res.data.length; i++) {
+
+            var _arr = [];
+            var bdgps = gcj02tobd09(res.data[i].lng, res.data[i].lat);
+
+            var pt = new BMap.Point(bdgps[0], bdgps[1]);
+
+            var result = BMapLib.GeoUtils.isPointInPolygon(pt, ply);
+
+            if (result == true) {
+                _arr.push(bdgps[0]);
+                _arr.push(bdgps[1]);
+                if (res.data[i].value>5550) {
+                    weiboData3.push(_arr)
+                }else if(res.data[i].value>1550){
+                    weiboData2.push(_arr)
+                }else{
+                    weiboData1.push(_arr)
+                }
+            } else {
+
             }
         }
-
+        $(".spinner_content").hide();
         myChart.setOption(option = {
             title:{
                 text: '指纹分布图',
@@ -933,6 +946,9 @@ function density() {
             }]
         });
 
+        },
+        error: function (res) {
+            alert("获取指纹数据失败了");
         }
     })
 

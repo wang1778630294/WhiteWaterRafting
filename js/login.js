@@ -74,7 +74,7 @@ $(function () {
                         },
                         itemStyle: {
                             normal: {
-                                borderColor: '#389BB7',
+                                borderColor: 'rgba(56,155,183,1)',
                                 areaColor: '#323c47'
                             },
                             emphasis: {
